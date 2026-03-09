@@ -1,0 +1,30 @@
+{
+  "name": "steam-manifest-discord-bot",
+  "version": "1.0.0",
+  "description": "High-performance Discord bot and internal API for Steam depot manifest data",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "register-commands": "node src/registerCommands.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "bottleneck": "^2.19.5",
+    "cheerio": "^1.0.0",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jszip": "^3.10.1",
+    "node-cache": "^5.1.2",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
